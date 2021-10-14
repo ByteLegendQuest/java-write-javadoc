@@ -16,7 +16,7 @@ public class ChallengeZhHansTest {
         Utils.hasAuthor(html);
         Utils.hasSee(html);
         Utils.hasParameters(html);
-        Utils.hasReturns(html);
+        Utils.hasReturn(html);
         Utils.hasThrows(html);
     }
 }

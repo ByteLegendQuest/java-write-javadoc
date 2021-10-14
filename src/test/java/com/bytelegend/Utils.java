@@ -20,12 +20,12 @@ public class Utils {
         Assertions.assertFalse(selectFromJavadoc(html, "span.paramLabel").isEmpty());
     }
 
-    public static void hasReturns(String html) {
+    public static void hasReturn(String html) {
         Assertions.assertFalse(selectFromJavadoc(html, "span.returnLabel").isEmpty());
     }
 
     public static void hasThrows(String html) {
-        Assertions.assertFalse(selectFromJavadoc(html, "span.returnLabel").isEmpty());
+        Assertions.assertFalse(selectFromJavadoc(html, "span.throwsLabel").isEmpty());
     }
 
     private static Elements selectFromJavadoc(String html, String cssSelector) {

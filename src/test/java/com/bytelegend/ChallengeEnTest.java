@@ -10,8 +10,7 @@ public class ChallengeEnTest {
         ProjectSourceFileReader.abortTestIfClassNotChanged(
                 ChallengeEn.class, "e51d5a84291919e7404a1b94e39e5a91");
         String html =
-                ChallengeZhHans.readUtf8Text(
-                        "target/site/apidocs/com/bytelegend/ChallengeZhEn.html");
+                ChallengeZhHans.readUtf8Text("target/site/apidocs/com/bytelegend/ChallengeEn.html");
         System.out.println(html);
         Utils.hasAuthor(html);
         Utils.hasSee(html);
