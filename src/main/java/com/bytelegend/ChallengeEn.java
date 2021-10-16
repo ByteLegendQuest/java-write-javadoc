@@ -5,20 +5,21 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-/*
- * Convert all comments in this class to Javadoc with standard Javadoc tags: @author @see @return @throws
- * Feel free to put your own name into "author" tag, because you are the author of this code.
+
+/**
+ * 挑战在
  *
- * Author: <Your Name>
- * See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeEn.java
+ * @author MeteorAndy
+ * @date 2021/10/16
+ * @see <a href="https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeEn.java">...</a>
  */
 public class ChallengeEn {
-    /*
-     * Read a text file with UTF-8 encoding and return its content.
+    /**
+     * 读utf8文本
      *
-     * Param filePath: path of the file to be read
-     * Return: the content string of the text file
-     * Throws IOException upon failures
+     * @param filePath 文件路径
+     * @return {@link String}
+     * @throws IOException ioexception
      */
     public static String readUtf8Text(String filePath) throws IOException {
         byte[] bytes = Files.readAllBytes(Paths.get(filePath));
