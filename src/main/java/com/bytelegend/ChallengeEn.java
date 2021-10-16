@@ -16,9 +16,11 @@ public class ChallengeEn {
     /*
      * Read a text file with UTF-8 encoding and return its content.
      *
-     * Param filePath: path of the file to be read
-     * Return: the content string of the text file
-     * Throws IOException upon failures
+     * @author firepond
+     * @see https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeEn.java
+     * @param filePath path of the file to be read
+     * @return the content string of the text file
+     * @throws IOException upon failures
      */
     public static String readUtf8Text(String filePath) throws IOException {
         byte[] bytes = Files.readAllBytes(Paths.get(filePath));
