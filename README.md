@@ -46,5 +46,3 @@ Any changes to files other than the following files will be rejected:**
 
 - `src/main/java/com/bytelegend/ChallengeEn.java`
 - `src/main/java/com/bytelegend/ChallengeZhHans.java`
-
-test
