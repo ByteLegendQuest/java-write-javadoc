@@ -24,7 +24,7 @@ jobs:
           git config user.name ByteLegendBot &&
           git add challenges/JavaIsland/java-javadoc/java-write-javadoc/diffs &&
           git commit -m 'Sync diff from https://github.com/${{ github.event.repository.full_name }}/pull/${{ github.event.pull_request.number }}' &&
-          git push https://${{ secrets.BYTELEGENDBOT_TOKEN }}@github.com/${{ github.event.repository.full_name }}.git
+          git push https://${{ secrets.BYTELEGENDBOT_TOKEN }}@github.com/ByteLegend/quests.git
 
 
 
