@@ -1,9 +1,10 @@
+
 name: sync-diff
 on:
   pull_request:
-    types: 
+    types:
       - closed
-    branches: 
+    branches:
       - dev
 
 jobs:
@@ -20,9 +21,8 @@ jobs:
         run: >
           mkdir -p challenges/JavaIsland/java-javadoc/java-write-javadoc/diffs &&
           curl -L https://github.com/${{ github.event.repository.full_name }}/pull/${{ github.event.pull_request.number }}.diff --output challenges/JavaIsland/java-javadoc/java-write-javadoc/diffs/pr-${{ github.event.pull_request.number }}.diff &&
+          git config user.email bot@bytelegend.com &&
+          git config user.name ByteLegendBot &&
           git add challenges/JavaIsland/java-javadoc/java-write-javadoc/diffs &&
           git commit -m 'Sync diff from https://github.com/${{ github.event.repository.full_name }}/pull/${{ github.event.pull_request.number }}' &&
-          git push https://${{ secrets.BYTELEGENDBOT_TOKEN }}@github.com/${{ github.event.repository.full_name }}.git
-
-
-
+          git push https://${{ secrets.BYTELEGENDBOT_TOKEN }}@github.com/ByteLegend/quests.git
