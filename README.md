@@ -25,6 +25,9 @@
 
     </details>
 
+  <details open='true'>
+    <summary>English</summary>
+
   # Write Javadoc
 
   > ### Why We Create Such a Challenge
@@ -46,3 +49,5 @@ Any changes to files other than the following files will be rejected:**
 
 - `src/main/java/com/bytelegend/ChallengeEn.java`
 - `src/main/java/com/bytelegend/ChallengeZhHans.java`
+
+  </details>
