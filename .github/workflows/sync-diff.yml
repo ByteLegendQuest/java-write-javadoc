@@ -1,10 +1,9 @@
-
 name: sync-diff
 on:
   pull_request_target:
-    types:
+    types: 
       - closed
-    branches:
+    branches: 
       - dev
 
 jobs:
