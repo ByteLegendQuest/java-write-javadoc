@@ -9,7 +9,7 @@ import java.nio.file.Paths;
  * Convert all comments in this class to Javadoc with standard Javadoc tags: @author @see @return @throws
  * Feel free to put your own name into "author" tag, because you are the author of this code.
  *
- * Author: <xiaopeng>
+ * Author: <Your Name>
  * See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeEn.java
  */
 public class ChallengeEn {
