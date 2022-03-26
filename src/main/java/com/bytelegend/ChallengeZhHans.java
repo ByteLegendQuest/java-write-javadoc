@@ -9,7 +9,7 @@ import java.nio.file.Paths;
  * 请使用Javadoc的标准标签 @author @see @param @return @throws，把本类中的所有注释改写成Javadoc。
  * 请勿修改注释内容本身，但是你可以把作者改写成你自己的名字，因为你当之无愧是本代码的作者之一。
  *
- * 作者：<这里可以改成你自己的名字>
+ * 作者：1501119276
  * See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeZhHans.java
  */
 public class ChallengeZhHans {
