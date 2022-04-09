@@ -12,6 +12,10 @@ import java.nio.file.Paths;
  * Author: <Your Name>
  * See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeEn.java
  */
+ /*
+ *@author xiongmeng
+ *
+ */
 public class ChallengeEn {
     /*
      * Read a text file with UTF-8 encoding and return its content.
