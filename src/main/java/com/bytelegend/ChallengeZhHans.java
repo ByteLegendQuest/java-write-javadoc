@@ -11,7 +11,7 @@ import java.nio.file.Paths;
  *
  * @author: XiaoZiShan
  * @see: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeZhHans.java
-  /
+ */
 public class ChallengeZhHans {
     /*
      * @see 使用UTF-8编码读取一个文本文件并返回其内容
