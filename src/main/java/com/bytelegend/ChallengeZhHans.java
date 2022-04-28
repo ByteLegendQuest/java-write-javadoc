@@ -8,9 +8,9 @@ import java.nio.file.Paths;
 /*
  * 请使用Javadoc的标准标签 @author @see @param @return @throws，把本类中的所有注释改写成Javadoc。
  * 请勿修改注释内容本身，但是你可以把作者改写成你自己的名字，因为你当之无愧是本代码的作者之一。
- *
- * 作者：<这里可以改成你自己的名字>
- * See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeZhHans.java
+ *  
+ * @author：saveunhappy
+ * @see: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeZhHans.java
  */
 public class ChallengeZhHans {
     /*
@@ -19,6 +19,11 @@ public class ChallengeZhHans {
      * 参数filePath：要读取的文件路径
      * 返回值：读取到的文本内容字符串
      * 抛出IOException：如果无法读取
+     * @author save
+     * @see https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeZhHans.java
+     * @param filePath
+     * @return String
+     * @throws IOException
      */
     public static String readUtf8Text(String filePath) throws IOException {
         byte[] bytes = Files.readAllBytes(Paths.get(filePath));
