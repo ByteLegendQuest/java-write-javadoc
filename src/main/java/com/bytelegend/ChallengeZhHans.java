@@ -16,9 +16,17 @@ public class ChallengeZhHans {
     /*
      * 使用UTF-8编码读取一个文本文件并返回其内容
      *
-     * 参数filePath：要读取的文件路径
+     * @param filePath 参数filePath：要读取的文件路径
      * 返回值：读取到的文本内容字符串
      * 抛出IOException：如果无法读取
+     */
+    /**
+     * @param filePath :filePath 要读取的文件路径
+     * @return: java.lang.String 读取到的文本内容字符串
+     * @description: 使用UTF-8编码读取一个文本文件并返回其内容
+     * @author: Mr.ChiZi
+     * @date: 2022/6/5 17:14
+     * @throws IOException： 抛出IOException，如果无法读取
      */
     public static String readUtf8Text(String filePath) throws IOException {
         byte[] bytes = Files.readAllBytes(Paths.get(filePath));
