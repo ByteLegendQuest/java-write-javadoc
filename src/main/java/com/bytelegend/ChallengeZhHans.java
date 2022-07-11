@@ -5,21 +5,21 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-/*
- * 请使用Javadoc的标准标签 @author @see @param @return @throws，把本类中的所有注释改写成Javadoc。
- * 请勿修改注释内容本身，但是你可以把作者改写成你自己的名字，因为你当之无愧是本代码的作者之一。
+/**
+ * Convert all comments in this class to Javadoc with standard Javadoc tags: @author @see @return @throws
+ * Feel free to put your own name into "author" tag, because you are the author of this code.
  *
- * 作者：<这里可以改成你自己的名字>
- * See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeZhHans.java
- */
-public class ChallengeZhHans {
-    /*
-     * 使用UTF-8编码读取一个文本文件并返回其内容
+ * @Author: <sorahb>
+ * @See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeEn.java
+ **/
+public class ChallengeEn {
+    /**
+     * Read a text file with UTF-8 encoding and return its content.
      *
-     * 参数filePath：要读取的文件路径
-     * 返回值：读取到的文本内容字符串
-     * 抛出IOException：如果无法读取
-     */
+     * @Param filePath: path of the file to be read
+     * @Return: the content string of the text file
+     * @Throws IOException upon failures
+     **/
     public static String readUtf8Text(String filePath) throws IOException {
         byte[] bytes = Files.readAllBytes(Paths.get(filePath));
         return new String(bytes, StandardCharsets.UTF_8);
