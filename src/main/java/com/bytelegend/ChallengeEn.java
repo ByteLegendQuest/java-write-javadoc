@@ -14,12 +14,12 @@ import java.nio.file.Paths;
  */
 public class ChallengeEn {
     
-     //Read a text file with UTF-8 encoding and return its content.
+     /*Read a text file with UTF-8 encoding and return its content.
     
      @Param filePath: path of the file to be read
      @Return: the content string of the text file
      @Throws IOException upon failures
-    
+    */
     public static String readUtf8Text(String filePath) throws IOException {
         byte[] bytes = Files.readAllBytes(Paths.get(filePath));
         return new String(bytes, StandardCharsets.UTF_8);
