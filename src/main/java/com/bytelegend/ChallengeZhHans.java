@@ -5,8 +5,8 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-/** 
- * 请使用Javadoc的标准标签 @author @see @param @return @throws @GU ，把本类中的所有注释改写成Javadoc。
+/*
+ * 请使用Javadoc的标准标签 @author @see @param @return @throws，把本类中的所有注释改写成Javadoc。
  * 请勿修改注释内容本身，但是你可以把作者改写成你自己的名字，因为你当之无愧是本代码的作者之一。
  *
  * 作者：<这里可以改成你自己的名字>
