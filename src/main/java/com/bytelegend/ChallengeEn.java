@@ -19,10 +19,6 @@ public class ChallengeEn {
      * Param filePath: path of the file to be read
      * Return: the content string of the text file
      * Throws IOException upon failures
-     *@author ZD
-     *@see https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeEn.java
-     *@return 
-     *@throws
      */
     public static String readUtf8Text(String filePath) throws IOException {
         byte[] bytes = Files.readAllBytes(Paths.get(filePath));
