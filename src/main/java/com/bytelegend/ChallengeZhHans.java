@@ -12,7 +12,15 @@ import java.nio.file.Paths;
  * 作者：<这里可以改成你自己的名字>
  * See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeZhHans.java
  */
+
 public class ChallengeZhHans {
+    
+    @author YoungerKayn
+    @param filePath 要读取的文件路径
+    @return 读取到的文本内容字符串
+    @throws IOException 如果无法读取
+    @see https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeZhHans.java
+    
     /*
      * 使用UTF-8编码读取一个文本文件并返回其内容
      *
