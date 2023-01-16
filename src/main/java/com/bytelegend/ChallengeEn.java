@@ -1,25 +1,27 @@
 package com.bytelegend;
-/**
- * 本类中的注释和Javadoc存在一些问题，会使得`mvn verify`失败。请修复之，确保`mvn verify`通过。
- * 注意：请只修复错误，不要修改注释内容。
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+/*
+ * Convert all comments in this class to Javadoc with standard Javadoc tags: @author @see @return @throws
+ * Feel free to put your own name into "author" tag, because you are the author of this code.
  *
- * There are some issues in the comments and Javadocs in this class, which fails `mvn verify`.
- * Please fix it and make sure `mvn verify` pass.
- * Note that you should only fix the errors, don't modify the comments themselves. 
- *
- * Location: C:&#92;users&#92;Documents
- * Fix the maximum number in three numbers, e.g. max(1,2,3) -&#62; 3
+ * Author: <Your Name>
+ * See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeEn.java
  */
-public class Challenge {
-    /**
-     * Find the maximum integer in three numbers.
+public class ChallengeEn {
+    /*
+     * Read a text file with UTF-8 encoding and return its content.
      *
-     * @param a the first number
-     * @param b the second number
-     * @param c the third number
+     * Param filePath: path of the file to be read
+     * Return: the content string of the text file
+     * Throws IOException upon failures
      */
-    public static int max(int a, int b, int c) {
-        return Math.max(Math.max(a, b), c);
+    public static String readUtf8Text(String filePath) throws IOException {
+        byte[] bytes = Files.readAllBytes(Paths.get(filePath));
+        return new String(bytes, StandardCharsets.UTF_8);
     }
 }
-
