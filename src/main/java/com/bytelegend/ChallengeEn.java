@@ -5,20 +5,14 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-
 /*
  * Convert all comments in this class to Javadoc with standard Javadoc tags: @author @see @return @throws
  * Feel free to put your own name into "author" tag, because you are the author of this code.
  *
- * Author: <YangZhi>
+ * Author: <Your Name>
  * See: https://github.com/ByteLegendQuest/java-write-javadoc/blob/main/src/main/java/com/bytelegend/ChallengeEn.java
  */
 public class ChallengeEn {
-    /**
-     * @param filePath
-     * @return
-     * @throws IOException
-     */
     /*
      * Read a text file with UTF-8 encoding and return its content.
      *
